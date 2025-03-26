@@ -1,5 +1,6 @@
 package com.xfef0.base_domains.dto;
 
+import com.xfef0.base_domains.OrderStatus;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -9,6 +10,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class OrderEvent {
     private String message;
-    private String status;
+    private OrderStatus status;
     private Order order;
 }
