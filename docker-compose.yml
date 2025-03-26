@@ -5,6 +5,7 @@ services:
     restart: always
     environment:
       POSTGRES_PASSWORD: secret
+      POSTGRES_DB: stock
     ports:
       - "5432:5432"
 
