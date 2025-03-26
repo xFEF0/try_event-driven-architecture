@@ -1,12 +1,12 @@
 
 services:
-#  postgres:
-#    image: postgres:latest
-#    restart: always
-#    environment:
-#      POSTGRES_PASSWORD: example
-#    ports:
-#      - "5432:5432"
+  postgres:
+    image: postgres:latest
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: secret
+    ports:
+      - "5432:5432"
 
   zookeeper:
     image: confluentinc/cp-zookeeper:latest
