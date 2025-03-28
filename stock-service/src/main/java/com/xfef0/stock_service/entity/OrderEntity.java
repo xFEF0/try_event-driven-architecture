@@ -3,11 +3,13 @@ package com.xfef0.stock_service.entity;
 import com.xfef0.base_domains.OrderStatus;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import lombok.Getter;
 import lombok.Setter;
 
 import java.time.LocalDateTime;
 
 @Setter
+@Getter
 @Entity
 public class OrderEntity {
 
